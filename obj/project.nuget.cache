@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MUIC6lO0S7caYhC213pbC4uOzivN4RLtjWbWGMMMWFCjadHlKei89LiBQMaorSIIHC+daxg4261yZrqIzSauBw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tanner\\ISCore\\WINTER 2023\\IS413 Enterprise App\\Missions\\Mission8\\Group2-3_Mission8\\Group2-3_Mission8.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tanner\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
