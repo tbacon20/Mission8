@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+
+
+<form method="post">
+    <!--Allow for Validation-->
+    <div asp-validation-summary="All"></div>
+
+    <!--Include ID for Editing Purposes-->
+    <input type="hidden" asp-for="TaskId" />
+
+    <!--Input Fields for Tasks-->
+    <label asp-for="Task">Task:</label>
+    <input asp-for="Task" /><br />
+
+    <label asp-for="DueDate">DueDate:</label>
+    <input asp-for="DueDate" /><br />
+
+    <label asp-for="Quadrant">Quadrant:</label>
+    <input asp-for="Quadrant" /><br />
+
+    <label asp-for="CategoryId">Category:</label>
+    <select asp-for="CategoryId">
+        <option value="">Select a Category</option>
+        @foreach (Category cat in ViewBag.Majors)
+        {
+            <option value="@cat.CategoryId">@cat.CategoryName</option>
+        }
+
+    </select><br />
+
+    <label asp-for="Completed">Completed:</label>
+    <select asp-for="Completed">
+        <option value="true">Yes</option>
+        <option value="false">No</option>
+    </select><br />
+
+    <button type="submit">Submit Task</button>
+
+</form>
