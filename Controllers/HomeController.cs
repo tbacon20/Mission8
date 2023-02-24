@@ -1,4 +1,4 @@
-﻿//using Group2_3_Mission8.Models;
+﻿using Group2_3_Mission8.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -14,13 +14,20 @@ namespace Group2_3_Mission8.Controllers
 
         public HomeController()
         {
-           
         }
 
         public IActionResult Index()
         {
             return View();
         }
+
+        [HttpGet]
+        public IActionResult AddTask()
+        {
+            ViewBag.Category = _TaskContext.Category.ToList();
+            return View();
+        }
+
 
     }
 }

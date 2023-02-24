@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tanner Greenwood\\Source\\Repos\\Mission8\\Group2-3_Mission8.csproj": {}
+    "C:\\Users\\Tanner Greenwood\\Source\\Repos\\mission8\\mission\\Group2-3_Mission8.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tanner Greenwood\\Source\\Repos\\Mission8\\Group2-3_Mission8.csproj": {
+    "C:\\Users\\Tanner Greenwood\\Source\\Repos\\mission8\\mission\\Group2-3_Mission8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tanner Greenwood\\Source\\Repos\\Mission8\\Group2-3_Mission8.csproj",
+        "projectUniqueName": "C:\\Users\\Tanner Greenwood\\Source\\Repos\\mission8\\mission\\Group2-3_Mission8.csproj",
         "projectName": "Group2-3_Mission8",
-        "projectPath": "C:\\Users\\Tanner Greenwood\\Source\\Repos\\Mission8\\Group2-3_Mission8.csproj",
+        "projectPath": "C:\\Users\\Tanner Greenwood\\Source\\Repos\\mission8\\mission\\Group2-3_Mission8.csproj",
         "packagesPath": "C:\\Users\\Tanner Greenwood\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tanner Greenwood\\Source\\Repos\\Mission8\\obj\\",
+        "outputPath": "C:\\Users\\Tanner Greenwood\\Source\\Repos\\mission8\\mission\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tanner Greenwood\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,28 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.32, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
