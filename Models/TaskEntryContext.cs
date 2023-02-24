@@ -14,7 +14,7 @@ namespace Group2_3_Mission8.Models
         }
 
         public DbSet<TaskFormResponse> Task { get; set; }
-        public DbSet<Category> Category { get; set; }
+        public DbSet<Category> CategorySet { get; set; }
 
 
         // Seeding the data

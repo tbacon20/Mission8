@@ -28,7 +28,7 @@ namespace Group2_3_Mission8.Migrations
 
                     b.HasKey("CategoryId");
 
-                    b.ToTable("Category");
+                    b.ToTable("CategorySet");
 
                     b.HasData(
                         new

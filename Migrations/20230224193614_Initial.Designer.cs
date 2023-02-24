@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Group2_3_Mission8.Migrations
 {
     [DbContext(typeof(TaskEntryContext))]
-    [Migration("20230224162501_Initial")]
+    [Migration("20230224193614_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -30,7 +30,7 @@ namespace Group2_3_Mission8.Migrations
 
                     b.HasKey("CategoryId");
 
-                    b.ToTable("Category");
+                    b.ToTable("CategorySet");
 
                     b.HasData(
                         new
