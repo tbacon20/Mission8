@@ -1274,26 +1274,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tanner\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\brook\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tanner\\ISCore\\WINTER 2023\\IS413 Enterprise App\\Missions\\Mission8\\Mission8\\Group2-3_Mission8.csproj",
+      "projectUniqueName": "C:\\Users\\brook\\source\\repos\\Mission8\\Group2-3_Mission8.csproj",
       "projectName": "Group2-3_Mission8",
-      "projectPath": "C:\\Users\\Tanner\\ISCore\\WINTER 2023\\IS413 Enterprise App\\Missions\\Mission8\\Mission8\\Group2-3_Mission8.csproj",
-      "packagesPath": "C:\\Users\\Tanner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tanner\\ISCore\\WINTER 2023\\IS413 Enterprise App\\Missions\\Mission8\\Mission8\\obj\\",
+      "projectPath": "C:\\Users\\brook\\source\\repos\\Mission8\\Group2-3_Mission8.csproj",
+      "packagesPath": "C:\\Users\\brook\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brook\\source\\repos\\Mission8\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Tanner\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\brook\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1350,12 +1343,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.25, 3.1.25]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1364,7 +1351,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
       }
     }
   }
